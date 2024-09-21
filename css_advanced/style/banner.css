@@ -146,8 +146,8 @@ body , html {
 
 html, body {
     height: 100%;
-    font-family: 'Source Sans Pro';
-    
+    font-family: 'Source Sans Pro' arial;
+    background-color: #F2F2F2;    
 }
 
 html {
