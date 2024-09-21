@@ -1,0 +1,50 @@
+.membership{
+    width: 1440px;
+    height: 502px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #071629;
+    color: aliceblue;
+
+}
+.membership-elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.elements-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 153px;
+
+}
+.elements-component > p{
+    width: 200px;
+    padding-left: 5px;
+    margin: 0px; 
+   
+}
+.membership > h2 {
+    font-size: 30px;
+    width: 234px;
+    height: 40px;
+    margin: 80px 0px 0px 0px ;
+}
+.register-button-membership{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF ;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -1px 1px  30px rgb(36, 35, 35);
+    margin: 0px 0px 50px 0px ;
+    color: #FFFFFF;
+}
+
+

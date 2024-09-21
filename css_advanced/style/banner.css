@@ -1,0 +1,166 @@
+header{
+    background-color: rgb(85, 135, 179);
+    height: 60px;
+    margin-bottom: -60px;
+    font-size: 1px bold;
+    
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height:30px;
+    padding-top: 30px;
+    
+}
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+    margin-right: 169px;
+
+}
+.right-section > a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px ;
+    font-weight: bold;
+    
+}
+.logo{
+    padding-left: 169px;
+   
+}
+.midle-space{
+    flex: 1;
+}
+
+.banner{
+    background-image:url(/imges/Object.png) ;
+    background-size: 100%;
+    
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-color: #071629;
+    height: 1093px;
+
+}
+
+.title-section{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-title{
+    font-size: 120px;
+    font-weight: bolder;
+    padding-top: 120px;
+    margin-bottom: 0px;
+}
+.span-div{
+    width: 254px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between ;
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
+.register-button{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF ;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -1px 1px  30px rgb(36, 35, 35);
+    color: #FFFFFF;
+}
+.pros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.pros>h2 {
+    width: 261px;
+    height: 40;
+    font-size: 31px;
+    font-weight: 100;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    
+}
+.pros >h2> span{
+    color: #C271FF;
+    font-weight: 600;
+}
+
+.pros-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 1009px;
+    height: 237px;
+    
+}
+.first-pro , .second-pro, .third-pro, .fourth-pro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+}
+.first-pro > p  , .second-pro > p, .third-pro > p, .fourth-pro > p{
+    margin: 3px;
+    font-style: italic;
+}
+.first-pro > h3  , .second-pro > h3, .third-pro > h3, .fourth-pro > h3 {
+    font-weight: 600;
+    margin-bottom: 12px ;
+   
+}
+.third-pro > img {
+    border-radius: 75px;
+}
+
+
+body , html {
+	font-family: 'Source Sans Pro';
+	color: rgba(0, 0, 0, 0.8);
+    width: 1440px;
+    height: 1093px;
+    
+}
+
+
+html, body {
+    height: 100%;
+    font-family: 'Source Sans Pro';
+    
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+
